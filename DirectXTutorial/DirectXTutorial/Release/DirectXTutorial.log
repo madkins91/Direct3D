@@ -1,0 +1,23 @@
+﻿Build started 3/15/2015 4:37:42 PM.
+     1>Project "G:\VS Projects\DirectXTutorial\DirectXTutorial\DirectXTutorial.vcxproj" on node 2 (Build target(s)).
+     1>FxCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T vs_4_0_level_9_1 /Fo "G:\VS Projects\DirectXTutorial\Release\DirectXTutorial\VertexShader.cso" VertexShader.hlsl 
+         compilation object save succeeded; see G:\VS Projects\DirectXTutorial\Release\DirectXTutorial\VertexShader.cso
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"G:\VS Projects\DirectXTutorial\DirectXTutorial\\" /IRelease\ /I"G:\VS Projects\DirectXTutorial\DirectXTutorial\\" /I"Generated Files\\" /IRelease\ /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /O2 /Oi /Oy- /GL /D NDEBUG /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Release\pch.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj App.cpp Game.cpp
+         App.cpp
+         Game.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\VS Projects\DirectXTutorial\Release\DirectXTutorial\DirectXTutorial.exe" /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\lib\store" /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\lib" d2d1.lib d3d11.lib dxgi.lib ole32.lib windowscodecs.lib dwrite.lib kernel32.lib /MANIFEST:NO /DEBUG /PDB:"G:\VS Projects\DirectXTutorial\Release\DirectXTutorial\DirectXTutorial.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /APPCONTAINER /WINMD /WINMDFILE:"G:\VS Projects\DirectXTutorial\Release\DirectXTutorial\DirectXTutorial.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH Release\App.obj
+         Release\Game.obj
+         Release\pch.obj
+         Generating code
+         Finished generating code
+         DirectXTutorial.vcxproj -> G:\VS Projects\DirectXTutorial\Release\DirectXTutorial\DirectXTutorial.exe
+       _GenerateProjectPriFileCore:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x64\MakePri.exe New -ProjectRoot "G:\VS Projects\DirectXTutorial\DirectXTutorial\\" -ConfigXml Release\priconfig.xml -OutputFile "G:\VS Projects\DirectXTutorial\Release\DirectXTutorial\resources.pri" -IndexName a6fc949c-463d-4242-9327-393bb109f870 -Verbose -Overwrite  
+     1>Done Building Project "G:\VS Projects\DirectXTutorial\DirectXTutorial\DirectXTutorial.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.89

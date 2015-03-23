@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MIKEL</Machine>
+    <WindowsUser>Primary</WindowsUser>
+    <SolutionConfiguration>Release|Win32</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>a6fc949c-463d-4242-9327-393bb109f870</PackageIdentityName>
+    <RegisteredManifestChecksum>B7ED61D3B0B5D676AB3932AFE64F30FAC984EE6724DA5257FA513DFBF6418FB9</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>a6fc949c-463d-4242-9327-393bb109f870_1.0.0.0_x86__59ayf3vj98bya</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>a6fc949c-463d-4242-9327-393bb109f870_59ayf3vj98bya!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>a6fc949c-463d-4242-9327-393bb109f870</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Primary</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="G:\VS Projects\DirectXTutorial\Release\DirectXTutorial\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-15T20:37:46.822</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\Release\DirectXTutorial\DirectXTutorial.exe">
+      <PackagePath>DirectXTutorial.exe</PackagePath>
+      <Modified>2015-03-15T20:37:46.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\Release\DirectXTutorial\DirectXTutorial.winmd">
+      <PackagePath>DirectXTutorial.winmd</PackagePath>
+      <Modified>2015-03-08T19:33:05.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\Release\DirectXTutorial\PixelShader.cso">
+      <PackagePath>PixelShader.cso</PackagePath>
+      <Modified>2015-03-08T19:33:00.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\Release\DirectXTutorial\VertexShader.cso">
+      <PackagePath>VertexShader.cso</PackagePath>
+      <Modified>2015-03-15T20:37:42.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\DirectXTutorial\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T11:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\DirectXTutorial\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T11:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\DirectXTutorial\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T11:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\DirectXTutorial\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T11:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\Release\DirectXTutorial\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-03-15T20:37:46.610</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

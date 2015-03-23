@@ -1,0 +1,12 @@
+﻿Build started 3/8/2015 3:55:49 PM.
+     1>Project "G:\VS Projects\DirectXTutorial\DirectXTutorial\DirectXTutorial.vcxproj" on node 2 (Build target(s)).
+     1>FxCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T vs_4_0_level_9_1 /Fo "G:\VS Projects\DirectXTutorial\Debug\DirectXTutorial\VertexShader.cso" /Od /Zi VertexShader.hlsl 
+         compilation object save succeeded; see G:\VS Projects\DirectXTutorial\Debug\DirectXTutorial\VertexShader.cso
+       Link:
+         DirectXTutorial.vcxproj -> G:\VS Projects\DirectXTutorial\Debug\DirectXTutorial\DirectXTutorial.exe
+     1>Done Building Project "G:\VS Projects\DirectXTutorial\DirectXTutorial\DirectXTutorial.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.55

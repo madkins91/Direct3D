@@ -1,0 +1,1 @@
+G:\VS Projects\DirectXTutorial\DirectXTutorial\DirectXTutorial.vcxproj;x86

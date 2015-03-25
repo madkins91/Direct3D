@@ -35,12 +35,12 @@
     <PackageDependency Name="Microsoft.VCLibs.120.00.Debug" MinVersion="12.0.21005.1" />
   </Dependencies>
   <build:Metadata>
-    <build:Item Name="cl.exe" Version="18.00.21005.1 built by: REL" />
+    <build:Item Name="cl.exe" Version="18.00.30501.0 built by: REL" />
     <build:Item Name="VisualStudio" Version="12.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Professional 2013" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Express 2013 for Windows" />
     <build:Item Name="OperatingSystem" Version="6.3.9600.16384 (winblue_rtm.130821-1623)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.21005.1" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="12.0.21005.1" />
-    <build:Item Name="MakePri.exe" Version="6.3.9600.16384 (winblue_rtm.130821-1623)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.30501.0" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="12.0.30501.0" />
+    <build:Item Name="MakePri.exe" Version="6.3.9600.17029 (winblue_gdr.140219-1702)" />
   </build:Metadata>
 </Package>

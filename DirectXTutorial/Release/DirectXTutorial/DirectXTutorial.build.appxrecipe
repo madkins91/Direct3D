@@ -2,47 +2,49 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Machine>MIKEL</Machine>
-    <WindowsUser>Primary</WindowsUser>
+    <WindowsUser>Mikel</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Release|Win32</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>a6fc949c-463d-4242-9327-393bb109f870</PackageIdentityName>
+    <IntermediateOutputPath>C:\DXTutorial\DirectXTutorial\DirectXTutorial\DirectXTutorial\Release\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="G:\VS Projects\DirectXTutorial\Release\DirectXTutorial\AppxManifest.xml">
+    <AppXManifest Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\Release\DirectXTutorial\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\Release\DirectXTutorial\DirectXTutorial.exe">
+    <AppxPackagedFile Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\Release\DirectXTutorial\DirectXTutorial.exe">
       <PackagePath>DirectXTutorial.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\Release\DirectXTutorial\DirectXTutorial.winmd">
+    <AppxPackagedFile Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\Release\DirectXTutorial\DirectXTutorial.winmd">
       <PackagePath>DirectXTutorial.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\Release\DirectXTutorial\PixelShader.cso">
-      <PackagePath>PixelShader.cso</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\Release\DirectXTutorial\VertexShader.cso">
-      <PackagePath>VertexShader.cso</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\DirectXTutorial\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\DirectXTutorial\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\DirectXTutorial\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\DirectXTutorial\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\DirectXTutorial\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\DirectXTutorial\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\DirectXTutorial\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\DirectXTutorial\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\Release\DirectXTutorial\resources.pri">
+    <AppxPackagedFile Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\Release\DirectXTutorial\PixelShader.cso">
+      <PackagePath>PixelShader.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\Release\DirectXTutorial\VertexShader.cso">
+      <PackagePath>VertexShader.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\Release\DirectXTutorial\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

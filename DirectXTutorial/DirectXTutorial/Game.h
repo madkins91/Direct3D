@@ -29,9 +29,12 @@ public:
 	ComPtr<ID3D11PixelShader> pixelshader;
 	ComPtr<ID3D11InputLayout> inputlayout;
 
+	void updateVertexOffsets(float x, float y, float z, CoreWindow^ window);
+
 	void InitGraphics();
 	void InitPipeline();
 	void Initialize();
 	void Update();
 	void Render();
+	OFFSET vOffset;
 };

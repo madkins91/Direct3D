@@ -2,64 +2,67 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Machine>MIKEL</Machine>
-    <WindowsUser>Primary</WindowsUser>
+    <WindowsUser>Mikel</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|Win32</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>a6fc949c-463d-4242-9327-393bb109f870</PackageIdentityName>
-    <RegisteredManifestChecksum>B93AE309F4E71AC11556A1EF6F34CABDE3609ECB7A75B8DCDD6FB82ADF930A78</RegisteredManifestChecksum>
+    <IntermediateOutputPath>C:\DXTutorial\DirectXTutorial\DirectXTutorial\DirectXTutorial\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>B4CEAAEEB33D86091746D5BFFDD3F43F31D19BCB729CF5E6A1C884ED18729797</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>a6fc949c-463d-4242-9327-393bb109f870_1.0.0.0_x86__59ayf3vj98bya</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>a6fc949c-463d-4242-9327-393bb109f870_59ayf3vj98bya!App</RegisteredUserModeAppID>
     <RegisteredPackageID>a6fc949c-463d-4242-9327-393bb109f870</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=Primary</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="G:\VS Projects\DirectXTutorial\Debug\DirectXTutorial\AppxManifest.xml">
+    <AppXManifest Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\Debug\DirectXTutorial\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-03-08T19:47:31.928</Modified>
+      <Modified>2015-03-23T12:47:31.747</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\Debug\DirectXTutorial\DirectXTutorial.exe">
+    <AppxPackagedFile Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\Debug\DirectXTutorial\DirectXTutorial.exe">
       <PackagePath>DirectXTutorial.exe</PackagePath>
-      <Modified>2015-03-08T19:47:31.621</Modified>
+      <Modified>2015-03-25T15:12:46.822</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\Debug\DirectXTutorial\DirectXTutorial.winmd">
+    <AppxPackagedFile Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\Debug\DirectXTutorial\DirectXTutorial.winmd">
       <PackagePath>DirectXTutorial.winmd</PackagePath>
-      <Modified>2015-03-08T19:47:31.574</Modified>
+      <Modified>2015-03-23T12:00:44.967</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\Debug\DirectXTutorial\PixelShader.cso">
-      <PackagePath>PixelShader.cso</PackagePath>
-      <Modified>2015-03-08T19:47:27.284</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\Debug\DirectXTutorial\VertexShader.cso">
-      <PackagePath>VertexShader.cso</PackagePath>
-      <Modified>2015-03-08T19:55:50.301</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\DirectXTutorial\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\DirectXTutorial\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T11:01:02.000</Modified>
+      <Modified>2015-03-23T12:00:46.382</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\DirectXTutorial\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\DirectXTutorial\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T11:01:02.000</Modified>
+      <Modified>2015-03-23T12:00:46.383</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\DirectXTutorial\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\DirectXTutorial\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T11:01:02.000</Modified>
+      <Modified>2015-03-23T12:00:46.401</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\DirectXTutorial\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\DirectXTutorial\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T11:01:02.000</Modified>
+      <Modified>2015-03-23T12:00:46.384</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\VS Projects\DirectXTutorial\Debug\DirectXTutorial\resources.pri">
+    <AppxPackagedFile Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\Debug\DirectXTutorial\PixelShader.cso">
+      <PackagePath>PixelShader.cso</PackagePath>
+      <Modified>2015-03-23T12:47:26.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\Debug\DirectXTutorial\VertexShader.cso">
+      <PackagePath>VertexShader.cso</PackagePath>
+      <Modified>2015-03-25T14:34:16.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\DXTutorial\DirectXTutorial\DirectXTutorial\Debug\DirectXTutorial\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-03-08T19:47:31.882</Modified>
+      <Modified>2015-03-23T12:47:31.590</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

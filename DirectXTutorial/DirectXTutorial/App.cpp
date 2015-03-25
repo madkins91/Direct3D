@@ -95,6 +95,22 @@ public:
 
 	void KeyDown(CoreWindow^ Window, KeyEventArgs^ Args)
 	{
+		if (Args->VirtualKey == Windows::System::VirtualKey::Up)
+		{
+			game.updateVertexOffsets(0.0f, 0.1f, 0.0f, Window);
+		}
+		if (Args->VirtualKey == Windows::System::VirtualKey::Down)
+		{
+			game.updateVertexOffsets(0.0f, -0.1f, 0.0f, Window);
+		}
+		if (Args->VirtualKey == Windows::System::VirtualKey::Left)
+		{
+			game.updateVertexOffsets(-0.1f, 0.0f, 0.0f, Window);
+		}
+		if (Args->VirtualKey == Windows::System::VirtualKey::Right)
+		{
+			game.updateVertexOffsets(0.1f, 0.0f, 0.0f, Window);
+		}
 		/*MessageDialog dialog(Args->VirtualKey.ToString() + " was pressed.", "Notice");
 		dialog.ShowAsync();*/
 	}

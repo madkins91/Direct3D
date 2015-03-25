@@ -181,14 +181,24 @@ void CGame::Render()
 	// set the primitive topology
 	devcon->IASetPrimitiveTopology(D3D11_PRIMITIVE_TOPOLOGY_TRIANGLELIST);
 
-	OFFSET vOffset;
-	vOffset.X = 0.5f;
-	vOffset.Y = 0.5f;
-	vOffset.Z = 0.5f;
+	// update subresources here
+	devcon->UpdateSubresource(constantbuffer.Get(), 0, 0, &vOffset, 0, 0);
 
 	// draw 3 vertices, starting from vertex 0
 	devcon->Draw(3, 0);
 
 	// switch the back buffer and the front buffer
 	swapchain->Present(1, 0);
+}
+
+void CGame::updateVertexOffsets(float x, float y, float z, CoreWindow^ window)
+{
+
+	vOffset.X += x;
+	if (vOffset.X >= window->Bounds.Width)
+	{
+		vOffset.X = window->Bounds.Width;
+	}
+	vOffset.Y += y;
+	vOffset.Z += z;
 }

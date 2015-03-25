@@ -1,12 +1,16 @@
-﻿Build started 3/8/2015 3:55:49 PM.
-     1>Project "G:\VS Projects\DirectXTutorial\DirectXTutorial\DirectXTutorial.vcxproj" on node 2 (Build target(s)).
-     1>FxCompile:
-         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T vs_4_0_level_9_1 /Fo "G:\VS Projects\DirectXTutorial\Debug\DirectXTutorial\VertexShader.cso" /Od /Zi VertexShader.hlsl 
-         compilation object save succeeded; see G:\VS Projects\DirectXTutorial\Debug\DirectXTutorial\VertexShader.cso
+﻿Build started 3/25/2015 11:12:43 AM.
+     1>Project "C:\DXTutorial\DirectXTutorial\DirectXTutorial\DirectXTutorial\DirectXTutorial.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\DXTutorial\DirectXTutorial\DirectXTutorial\DirectXTutorial\ /IDebug\ /IC:\DXTutorial\DirectXTutorial\DirectXTutorial\DirectXTutorial\ /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _DEBUG /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\pch.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj App.cpp Game.cpp
+         App.cpp
+         Game.cpp
        Link:
-         DirectXTutorial.vcxproj -> G:\VS Projects\DirectXTutorial\Debug\DirectXTutorial\DirectXTutorial.exe
-     1>Done Building Project "G:\VS Projects\DirectXTutorial\DirectXTutorial\DirectXTutorial.vcxproj" (Build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DXTutorial\DirectXTutorial\DirectXTutorial\Debug\DirectXTutorial\DirectXTutorial.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\lib\store" /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\lib" d2d1.lib d3d11.lib dxgi.lib ole32.lib windowscodecs.lib dwrite.lib kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\DXTutorial\DirectXTutorial\DirectXTutorial\Debug\DirectXTutorial\DirectXTutorial.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD /WINMDFILE:"C:\DXTutorial\DirectXTutorial\DirectXTutorial\Debug\DirectXTutorial\DirectXTutorial.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\App.obj
+         Debug\Game.obj
+         Debug\pch.obj
+         DirectXTutorial.vcxproj -> C:\DXTutorial\DirectXTutorial\DirectXTutorial\Debug\DirectXTutorial\DirectXTutorial.exe
+     1>Done Building Project "C:\DXTutorial\DirectXTutorial\DirectXTutorial\DirectXTutorial\DirectXTutorial.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.55
+Time Elapsed 00:00:03.25
